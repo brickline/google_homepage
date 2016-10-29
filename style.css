@@ -1,0 +1,15 @@
+
+.list {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	margin: 0px 10px 0px 10px;
+}
+
+div.top{ 
+	border-style: solid;
+	/*border: 10px;*/
+	border-color: black;
+}
