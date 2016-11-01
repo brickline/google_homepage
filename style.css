@@ -8,8 +8,29 @@ li {
 	margin: 0px 10px 0px 10px;
 }
 
-div.top{ 
-	border-style: solid;
+div.top{
+	/*border-style: solid;*/
 	/*border: 10px;*/
 	border-color: black;
+}
+
+ul.list{
+	position: absolute;
+	right: 0%;
+
+}
+
+div.logo{
+	position: absolute;
+	top: 20%;
+	left: 43%;
+
+}
+
+div.search-bar{
+	display: inline;
+	position: absolute;
+	top: 33%;
+	left: 43%;
+
 }
