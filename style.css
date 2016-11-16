@@ -32,7 +32,7 @@ div.search-bar{
 	display: inline;
 	position: relative;
 	top: 33%;
-	left: 43%;
+	left: -14%;
 
 }
 
@@ -41,4 +41,47 @@ div.middle-box{
 	top:50%;
 	left:50%;
 	transform: translate(-50%, -50%);
+}
+
+div.search-buttons{
+ position: relative;
+ left: 20%;
+
+}
+
+div.bottom{
+	/*display: inline-block;*/
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-top: 50%;
+	background-color: rgb(223, 235, 223);
+
+}
+
+div.bottom-right{
+	float: right;
+	position: relative;
+	left: 0%;
+
+}
+
+div.bottom-left{
+	float: left;
+	position: relative;
+	right: 0%;
+
+}
+
+.bottom-button{
+	font: Arial;
+	color: red;
+	margin: 1 1 1 1;
+	text-decoration: none;
+}
+.bottom-button:hover{
+	font: Arial;
+	color: blue;
+	margin: 1 1 1 1;
+	text-decoration: none;
 }
